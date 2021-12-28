@@ -19,6 +19,7 @@ def ins():
         try:
                 file_data = open("data/credits.txt")
                 os.system("python2 run.py")
+                break
         except:
                 print( (datetime.now() + timedelta()).strftime(g+'['+w+'%H:%M:%S'+g+']')+" Installing Tools ...")
                 time.sleep(1)
